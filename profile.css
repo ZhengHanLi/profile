@@ -1,0 +1,36 @@
+.wrap{
+	width:800px;
+	height:800px;
+	margin: 0 auto;
+	background:#dddddd;
+}
+
+.title{
+	border-bottom:solid 1px black;
+}
+
+.basic{
+	position:relative;
+	height:200px;
+
+}
+
+.content{
+	height:150px;
+}
+
+.basic > img{
+	position: relative;
+	float:right;
+	width:140px;
+}
+
+.basic ul,.content ul{
+	padding-top:20px;
+}
+
+.basic li,.content li{
+	padding-bottom:10px;
+}
+
+
